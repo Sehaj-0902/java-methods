@@ -56,6 +56,7 @@ public class FactorSumProduct {
         	System.out.print("Enter a number: ");
         	int number = sc.nextInt();
 
+		// Call findFactors() method
         	int[] factors = findFactors(number);
 
         	System.out.print("Factors: ");
@@ -64,12 +65,15 @@ public class FactorSumProduct {
         	}
         	System.out.println();
 
+		// Call sumOfFactors() method
         	int sum = sumOfFactors(factors);
         	System.out.println("Sum of factors: " + sum);
 
+		// Call productOfFactors() method
         	long product = productOfFactors(factors);
         	System.out.println("Product of factors: " + product);
 
+		// Call sumOfSquaresOfFactors() method
         	long sumOfSquares = sumOfSquaresOfFactors(factors);
         	System.out.println("Sum of squares of factors: " + sumOfSquares);
     	}
