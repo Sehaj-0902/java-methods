@@ -118,6 +118,7 @@ public class NumberChecker5 {
         	}
         	System.out.println();
 
+		// Call the methods and print the results
         	System.out.println("Greatest factor: " + findGreatestFactor(factors));
         	System.out.println("Sum of factors: " + findSumOfFactors(factors));
         	System.out.println("Product of factors: " + findProductOfFactors(factors));
